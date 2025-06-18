@@ -1,6 +1,8 @@
 import { User, Bell, Settings, LogOut } from "lucide-react";
+import { useLocation } from "react-router-dom";
 
 const Header = () => {
+  const location = useLocation();
   return (
     <header className="bg-hoa-phat-700 text-white">
       {/* Main header */}
@@ -22,12 +24,23 @@ const Header = () => {
         <div className="flex items-center space-x-6">
           {/* Navigation */}
           <nav className="hidden lg:flex items-center space-x-6">
-            <a href="#" className="hover:text-blue-200 transition-colors">
+            <a
+              href="/dashboard"
+              className={`hover:text-blue-200 transition-colors ${
+                location.pathname === "/dashboard"
+                  ? "text-blue-200 font-medium border-b-2 border-blue-200 pb-1"
+                  : ""
+              }`}
+            >
               Dashboard
             </a>
             <a
-              href="#"
-              className="text-blue-200 font-medium border-b-2 border-blue-200 pb-1"
+              href="/"
+              className={`hover:text-blue-200 transition-colors ${
+                location.pathname === "/"
+                  ? "text-blue-200 font-medium border-b-2 border-blue-200 pb-1"
+                  : ""
+              }`}
             >
               Tìm kiếm & Truy vết
             </a>
