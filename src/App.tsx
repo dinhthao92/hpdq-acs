@@ -25,6 +25,10 @@ import SmartMap from "./pages/SmartMap";
 import AlertDashboard from "./pages/AlertDashboard";
 import AlertHistory from "./pages/AlertHistory";
 import AlertDetail from "./pages/AlertDetail";
+import ReportsOverview from "./pages/ReportsOverview";
+import ObjectReports from "./pages/ObjectReports";
+import AlertReports from "./pages/AlertReports";
+import CustomReports from "./pages/CustomReports";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -70,6 +74,10 @@ const App = () => (
           <Route path="/alert-dashboard" element={<AlertDashboard />} />
           <Route path="/alert-history" element={<AlertHistory />} />
           <Route path="/alert-detail" element={<AlertDetail />} />
+          <Route path="/reports-overview" element={<ReportsOverview />} />
+          <Route path="/object-reports" element={<ObjectReports />} />
+          <Route path="/alert-reports" element={<AlertReports />} />
+          <Route path="/custom-reports" element={<CustomReports />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
