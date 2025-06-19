@@ -153,9 +153,39 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <a href="#" className="hover:text-blue-200 transition-colors">
-              Báo cáo
-            </a>
+            <div className="relative group">
+              <button className="hover:text-blue-200 transition-colors">
+                Thống kê & Báo cáo
+              </button>
+              <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                <div className="p-2">
+                  <a
+                    href="/reports-overview"
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Dashboard tổng quan
+                  </a>
+                  <a
+                    href="/object-reports"
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Báo cáo theo đối tượng
+                  </a>
+                  <a
+                    href="/alert-reports"
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Báo cáo cảnh báo
+                  </a>
+                  <a
+                    href="/custom-reports"
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Tùy chỉnh báo cáo
+                  </a>
+                </div>
+              </div>
+            </div>
             <a href="#" className="hover:text-blue-200 transition-colors">
               Cài đặt
             </a>
