@@ -17,6 +17,8 @@ import FinalReconciliation from "./pages/FinalReconciliation";
 import TransportationPlanning from "./pages/TransportationPlanning";
 import CreateTransportPlan from "./pages/CreateTransportPlan";
 import WarehouseSchedule from "./pages/WarehouseSchedule";
+import PersonSearch from "./pages/PersonSearch";
+import VehicleSearch from "./pages/VehicleSearch";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -54,6 +56,8 @@ const App = () => (
             element={<CreateTransportPlan />}
           />
           <Route path="/warehouse-schedule" element={<WarehouseSchedule />} />
+          <Route path="/person-search" element={<PersonSearch />} />
+          <Route path="/vehicle-search" element={<VehicleSearch />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

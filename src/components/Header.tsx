@@ -151,9 +151,9 @@ const Header = () => {
         <div className="px-6">
           <nav className="flex space-x-8 overflow-x-auto">
             <a
-              href="/registration"
+              href="/person-search"
               className={`py-3 px-1 text-sm whitespace-nowrap hover:text-blue-200 transition-colors ${
-                location.pathname === "/registration"
+                location.pathname === "/person-search"
                   ? "text-blue-200 border-b-2 border-blue-200 font-medium"
                   : ""
               }`}
@@ -171,9 +171,9 @@ const Header = () => {
               Cán bộ nhân viên
             </a>
             <a
-              href="/"
+              href="/vehicle-search"
               className={`py-3 px-1 text-sm whitespace-nowrap hover:text-blue-200 transition-colors ${
-                location.pathname === "/"
+                location.pathname === "/vehicle-search"
                   ? "text-blue-200 border-b-2 border-blue-200 font-medium"
                   : ""
               }`}
