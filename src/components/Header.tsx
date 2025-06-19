@@ -16,7 +16,7 @@ const Header = () => {
             <span className="font-bold text-lg">HÒA PHÁT</span>
           </div>
           <div className="hidden md:block text-lg font-medium">
-            Module Tìm kiếm & Truy vết
+            <p>Tìm kiếm & Truy vết</p>
           </div>
         </div>
 
