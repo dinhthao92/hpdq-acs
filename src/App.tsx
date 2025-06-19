@@ -22,6 +22,9 @@ import VehicleSearch from "./pages/VehicleSearch";
 import AssetSearch from "./pages/AssetSearch";
 import OrderTracking from "./pages/OrderTracking";
 import SmartMap from "./pages/SmartMap";
+import AlertDashboard from "./pages/AlertDashboard";
+import AlertHistory from "./pages/AlertHistory";
+import AlertDetail from "./pages/AlertDetail";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -64,6 +67,9 @@ const App = () => (
           <Route path="/asset-search" element={<AssetSearch />} />
           <Route path="/order-tracking" element={<OrderTracking />} />
           <Route path="/smart-map" element={<SmartMap />} />
+          <Route path="/alert-dashboard" element={<AlertDashboard />} />
+          <Route path="/alert-history" element={<AlertHistory />} />
+          <Route path="/alert-detail" element={<AlertDetail />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

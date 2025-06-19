@@ -126,6 +126,33 @@ const Header = () => {
                 </div>
               </div>
             </div>
+            <div className="relative group">
+              <button className="hover:text-blue-200 transition-colors">
+                Thông báo cảnh báo
+              </button>
+              <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                <div className="p-2">
+                  <a
+                    href="/alert-dashboard"
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Cảnh báo thời gian thực
+                  </a>
+                  <a
+                    href="/alert-history"
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Lịch sử cảnh báo
+                  </a>
+                  <a
+                    href="/alert-detail"
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Chi tiết cảnh báo
+                  </a>
+                </div>
+              </div>
+            </div>
             <a href="#" className="hover:text-blue-200 transition-colors">
               Báo cáo
             </a>
