@@ -106,6 +106,16 @@ const Header = () => {
                 </div>
               </div>
             </div>
+            <a
+              href="/"
+              className={`hover:text-blue-200 transition-colors ${
+                location.pathname === "/"
+                  ? "text-blue-200 font-medium border-b-2 border-blue-200 pb-1"
+                  : ""
+              }`}
+            >
+              Tìm kiếm & Truy vết
+            </a>
             <div className="relative group">
               <button className="hover:text-blue-200 transition-colors">
                 Thông báo cảnh báo
