@@ -44,6 +44,16 @@ const Header = () => {
             >
               Tìm kiếm & Truy vết
             </a>
+            <a
+              href="/registration"
+              className={`hover:text-blue-200 transition-colors ${
+                location.pathname === "/registration"
+                  ? "text-blue-200 font-medium border-b-2 border-blue-200 pb-1"
+                  : ""
+              }`}
+            >
+              Đăng ký ra vào
+            </a>
             <a href="#" className="hover:text-blue-200 transition-colors">
               Báo cáo
             </a>
