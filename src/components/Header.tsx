@@ -25,26 +25,6 @@ const Header = () => {
           {/* Navigation */}
           <nav className="hidden lg:flex items-center space-x-6">
             <a
-              href="/dashboard"
-              className={`hover:text-blue-200 transition-colors ${
-                location.pathname === "/dashboard"
-                  ? "text-blue-200 font-medium border-b-2 border-blue-200 pb-1"
-                  : ""
-              }`}
-            >
-              Dashboard
-            </a>
-            <a
-              href="/"
-              className={`hover:text-blue-200 transition-colors ${
-                location.pathname === "/"
-                  ? "text-blue-200 font-medium border-b-2 border-blue-200 pb-1"
-                  : ""
-              }`}
-            >
-              Tìm kiếm & Truy vết
-            </a>
-            <a
               href="/registration"
               className={`hover:text-blue-200 transition-colors ${
                 location.pathname === "/registration"
