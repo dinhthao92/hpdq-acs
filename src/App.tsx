@@ -14,6 +14,9 @@ import GateMonitoring from "./pages/GateMonitoring";
 import WeighingStation from "./pages/WeighingStation";
 import WarehouseDelivery from "./pages/WarehouseDelivery";
 import FinalReconciliation from "./pages/FinalReconciliation";
+import TransportationPlanning from "./pages/TransportationPlanning";
+import CreateTransportPlan from "./pages/CreateTransportPlan";
+import WarehouseSchedule from "./pages/WarehouseSchedule";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -42,6 +45,15 @@ const App = () => (
             path="/final-reconciliation"
             element={<FinalReconciliation />}
           />
+          <Route
+            path="/transportation-planning"
+            element={<TransportationPlanning />}
+          />
+          <Route
+            path="/create-transport-plan"
+            element={<CreateTransportPlan />}
+          />
+          <Route path="/warehouse-schedule" element={<WarehouseSchedule />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
