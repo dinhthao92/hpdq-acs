@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Dashboard from "./pages/Dashboard";
 import Registration from "./pages/Registration";
 import EmployeeRegistration from "./pages/EmployeeRegistration";
+import VTTSRegistration from "./pages/VTTSRegistration";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,6 +26,7 @@ const App = () => (
             path="/employee-registration"
             element={<EmployeeRegistration />}
           />
+          <Route path="/vtts-registration" element={<VTTSRegistration />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

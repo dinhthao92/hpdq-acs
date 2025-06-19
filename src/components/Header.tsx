@@ -108,9 +108,16 @@ const Header = () => {
             >
               Phương tiện
             </a>
-            <button className="py-3 px-1 text-sm whitespace-nowrap hover:text-blue-200 transition-colors">
+            <a
+              href="/vtts-registration"
+              className={`py-3 px-1 text-sm whitespace-nowrap hover:text-blue-200 transition-colors ${
+                location.pathname === "/vtts-registration"
+                  ? "text-blue-200 border-b-2 border-blue-200 font-medium"
+                  : ""
+              }`}
+            >
               VTTS
-            </button>
+            </a>
             <button className="py-3 px-1 text-sm whitespace-nowrap hover:text-blue-200 transition-colors">
               Xuất bản thành phẩm
             </button>
