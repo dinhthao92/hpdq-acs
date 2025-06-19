@@ -24,7 +24,7 @@ import {
   User,
   Package,
   MapPin,
-  Sync,
+  RefreshCw,
   CheckCircle,
   AlertCircle,
   Clock,
@@ -145,7 +145,7 @@ const SalesOrderTickets = () => {
           </div>
           <div className="flex items-center space-x-3">
             <Button variant="outline" size="sm" className="flex items-center">
-              <Sync className="h-4 w-4 mr-2" />
+              <RefreshCw className="h-4 w-4 mr-2" />
               Đồng bộ SAP
             </Button>
             <Badge variant="outline" className="bg-green-50 text-green-700">
@@ -331,7 +331,7 @@ const SalesOrderTickets = () => {
               <div className="flex items-center justify-center">
                 <div className="text-center">
                   <div className="w-12 h-12 bg-hoa-phat-100 rounded-full flex items-center justify-center mb-2">
-                    <Sync className="h-6 w-6 text-hoa-phat-600" />
+                    <RefreshCw className="h-6 w-6 text-hoa-phat-600" />
                   </div>
                   <p className="text-sm font-medium text-gray-700">Mapping</p>
                 </div>
