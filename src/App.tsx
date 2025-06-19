@@ -29,6 +29,10 @@ import ReportsOverview from "./pages/ReportsOverview";
 import ObjectReports from "./pages/ObjectReports";
 import AlertReports from "./pages/AlertReports";
 import CustomReports from "./pages/CustomReports";
+import UserManagement from "./pages/UserManagement";
+import PermissionManagement from "./pages/PermissionManagement";
+import BlacklistManagement from "./pages/BlacklistManagement";
+import VehicleCardManagement from "./pages/VehicleCardManagement";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -78,6 +82,19 @@ const App = () => (
           <Route path="/object-reports" element={<ObjectReports />} />
           <Route path="/alert-reports" element={<AlertReports />} />
           <Route path="/custom-reports" element={<CustomReports />} />
+          <Route path="/user-management" element={<UserManagement />} />
+          <Route
+            path="/permission-management"
+            element={<PermissionManagement />}
+          />
+          <Route
+            path="/blacklist-management"
+            element={<BlacklistManagement />}
+          />
+          <Route
+            path="/vehicle-card-management"
+            element={<VehicleCardManagement />}
+          />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

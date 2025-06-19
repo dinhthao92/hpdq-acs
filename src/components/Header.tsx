@@ -186,9 +186,39 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <a href="#" className="hover:text-blue-200 transition-colors">
-              Cài đặt
-            </a>
+            <div className="relative group">
+              <button className="hover:text-blue-200 transition-colors">
+                Quản trị hệ thống
+              </button>
+              <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                <div className="p-2">
+                  <a
+                    href="/user-management"
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Quản lý người dùng
+                  </a>
+                  <a
+                    href="/permission-management"
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Phân quyền hệ thống
+                  </a>
+                  <a
+                    href="/blacklist-management"
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Danh sách đen
+                  </a>
+                  <a
+                    href="/vehicle-card-management"
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Quản lý thẻ xe
+                  </a>
+                </div>
+              </div>
+            </div>
           </nav>
 
           {/* User section */}
