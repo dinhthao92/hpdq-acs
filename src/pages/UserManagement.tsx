@@ -74,7 +74,7 @@ const UserManagement = () => {
       id: "USR-002",
       name: "Trần Thị Bình",
       email: "binh.tran@hoaphat.com",
-      department: "Kỹ thu���t",
+      department: "Kỹ thuật",
       position: "Kỹ sư",
       phone: "0912345679",
       status: "active",
@@ -331,7 +331,7 @@ const UserManagement = () => {
         <div className="flex justify-between items-center">
           <div>
             <h1 className="text-2xl font-bold text-gray-900">
-              Quản L�� Tài Khoản Người Dùng
+              Quản Lý Tài Khoản Người Dùng
             </h1>
             <p className="text-gray-600 mt-1">
               Quản lý tài khoản CBNV và nhà thầu
