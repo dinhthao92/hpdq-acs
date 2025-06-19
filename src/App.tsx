@@ -19,6 +19,9 @@ import CreateTransportPlan from "./pages/CreateTransportPlan";
 import WarehouseSchedule from "./pages/WarehouseSchedule";
 import PersonSearch from "./pages/PersonSearch";
 import VehicleSearch from "./pages/VehicleSearch";
+import AssetSearch from "./pages/AssetSearch";
+import OrderTracking from "./pages/OrderTracking";
+import SmartMap from "./pages/SmartMap";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -58,6 +61,9 @@ const App = () => (
           <Route path="/warehouse-schedule" element={<WarehouseSchedule />} />
           <Route path="/person-search" element={<PersonSearch />} />
           <Route path="/vehicle-search" element={<VehicleSearch />} />
+          <Route path="/asset-search" element={<AssetSearch />} />
+          <Route path="/order-tracking" element={<OrderTracking />} />
+          <Route path="/smart-map" element={<SmartMap />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

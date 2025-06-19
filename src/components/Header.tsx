@@ -181,21 +181,35 @@ const Header = () => {
               Phương tiện
             </a>
             <a
-              href="/vtts-registration"
+              href="/asset-search"
               className={`py-3 px-1 text-sm whitespace-nowrap hover:text-blue-200 transition-colors ${
-                location.pathname === "/vtts-registration"
+                location.pathname === "/asset-search"
                   ? "text-blue-200 border-b-2 border-blue-200 font-medium"
                   : ""
               }`}
             >
               VTTS
             </a>
-            <button className="py-3 px-1 text-sm whitespace-nowrap hover:text-blue-200 transition-colors">
+            <a
+              href="/order-tracking"
+              className={`py-3 px-1 text-sm whitespace-nowrap hover:text-blue-200 transition-colors ${
+                location.pathname === "/order-tracking"
+                  ? "text-blue-200 border-b-2 border-blue-200 font-medium"
+                  : ""
+              }`}
+            >
               Xuất bản thành phẩm
-            </button>
-            <button className="py-3 px-1 text-sm whitespace-nowrap hover:text-blue-200 transition-colors">
-              Kế hoạch vận chuyển
-            </button>
+            </a>
+            <a
+              href="/smart-map"
+              className={`py-3 px-1 text-sm whitespace-nowrap hover:text-blue-200 transition-colors ${
+                location.pathname === "/smart-map"
+                  ? "text-blue-200 border-b-2 border-blue-200 font-medium"
+                  : ""
+              }`}
+            >
+              Bản đồ thông minh
+            </a>
           </nav>
         </div>
       </div>
