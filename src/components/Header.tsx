@@ -78,12 +78,36 @@ const Header = () => {
       <div className="border-t border-hoa-phat-600">
         <div className="px-6">
           <nav className="flex space-x-8 overflow-x-auto">
-            <button className="py-3 px-1 text-sm whitespace-nowrap hover:text-blue-200 transition-colors">
+            <a
+              href="/registration"
+              className={`py-3 px-1 text-sm whitespace-nowrap hover:text-blue-200 transition-colors ${
+                location.pathname === "/registration"
+                  ? "text-blue-200 border-b-2 border-blue-200 font-medium"
+                  : ""
+              }`}
+            >
               Nhà thầu/Khách/CBNV
-            </button>
-            <button className="py-3 px-1 text-sm whitespace-nowrap text-blue-200 border-b-2 border-blue-200 font-medium">
+            </a>
+            <a
+              href="/employee-registration"
+              className={`py-3 px-1 text-sm whitespace-nowrap hover:text-blue-200 transition-colors ${
+                location.pathname === "/employee-registration"
+                  ? "text-blue-200 border-b-2 border-blue-200 font-medium"
+                  : ""
+              }`}
+            >
+              Cán bộ nhân viên
+            </a>
+            <a
+              href="/"
+              className={`py-3 px-1 text-sm whitespace-nowrap hover:text-blue-200 transition-colors ${
+                location.pathname === "/"
+                  ? "text-blue-200 border-b-2 border-blue-200 font-medium"
+                  : ""
+              }`}
+            >
               Phương tiện
-            </button>
+            </a>
             <button className="py-3 px-1 text-sm whitespace-nowrap hover:text-blue-200 transition-colors">
               VTTS
             </button>
