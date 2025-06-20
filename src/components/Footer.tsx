@@ -15,11 +15,11 @@ const Footer = () => {
               <span className="font-bold text-lg">HÒA PHÁT</span>
             </div>
             <p className="text-gray-300 text-sm mb-2">
-              CTCP Thép Hòa Phát Dung Quốc
+              CTCP Thép Hòa Phát Dung Quất
             </p>
             <div className="flex items-center gap-2 text-gray-400 text-sm">
               <Building className="h-4 w-4" />
-              <span>Khu Công nghiệp Dung Quốc, Hải Phòng</span>
+              <span>Khu Công nghiệp Dung Quất, Hải Phòng</span>
             </div>
           </div>
 
@@ -62,7 +62,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-8 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-gray-400">
-              © 2025 CTCP Thép Hòa Phát Dung Quốc. Hệ thống quản lý an ninh và
+              © 2025 CTCP Thép Hòa Phát Dung Quất. Hệ thống quản lý an ninh và
               kiểm soát truy cập.
             </p>
             <div className="flex items-center gap-4 text-sm text-gray-400">

@@ -49,10 +49,10 @@ const Login = () => {
               HỆ THỐNG QUẢN LÝ AN NINH
             </h1>
             <h2 className="text-2xl font-semibold text-hoa-phat-700 mb-6">
-              CTCP Thép Hòa Phát Dung Quốc
+              CTCP Thép Hòa Phát Dung Quất
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Hệ thống quản lý truy cập và an ninh thông minh cho nhà m��y
+              Hệ thống quản lý truy cập và an ninh thông minh cho nhà máy
             </p>
           </div>
 
@@ -65,7 +65,7 @@ const Login = () => {
             <div className="space-y-3 text-sm text-gray-600">
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-hoa-phat-500" />
-                <span>Khu Công nghiệp Dung Quốc, Hải Phòng</span>
+                <span>Khu Công nghiệp Dung Quất, Hải Phòng</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-hoa-phat-500" />
@@ -102,7 +102,7 @@ const Login = () => {
                     <Input
                       id="username"
                       type="text"
-                      placeholder="Nh��p tên đăng nhập"
+                      placeholder="Nhập tên đăng nhập"
                       value={username}
                       onChange={(e) => setUsername(e.target.value)}
                       className="pl-10"
