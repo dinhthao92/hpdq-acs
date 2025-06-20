@@ -680,6 +680,7 @@ const UserManagement = () => {
           </Card>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
