@@ -41,7 +41,7 @@ const Login = () => {
         <div className="text-center lg:text-left">
           <div className="mb-8">
             <img
-              src="https://cdn.builder.io/api/v1/assets/e26d8816248742eb95066a0839e5f198/image-d36888?format=webp&width=800"
+              src="https://cdn.builder.io/api/v1/assets/e26d8816248742eb95066a0839e5f198/image-be0400?format=webp&width=800"
               alt="Hòa Phát Logo"
               className="h-24 mx-auto lg:mx-0 mb-6"
             />
