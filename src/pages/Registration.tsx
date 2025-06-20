@@ -50,7 +50,7 @@ const Registration = () => {
         {/* Page Header */}
         <div className="text-center mb-8">
           <h1 className="text-2xl font-bold text-gray-900 mb-2">
-            MODULE ĐĂNG KÝ THÔNG TIN NHÀ THẦU/KHÁCH ONLINE
+            ĐĂNG KÝ THÔNG TIN NHÀ THẦU/KHÁCH ONLINE
           </h1>
           <h2 className="text-lg text-hoa-phat-700 font-semibold">
             KIÊM DUYỆT THỦ TỤC TRƯỚC KHI VÀO CÔNG AN NINH
