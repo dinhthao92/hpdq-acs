@@ -29,6 +29,7 @@ import {
 } from "@/components/ui/dialog";
 import { Switch } from "@/components/ui/switch";
 import { Textarea } from "@/components/ui/textarea";
+import Footer from "@/components/Footer";
 import {
   Users,
   UserPlus,
