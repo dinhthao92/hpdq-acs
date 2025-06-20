@@ -404,6 +404,7 @@ const VTTSRegistration = () => {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };
