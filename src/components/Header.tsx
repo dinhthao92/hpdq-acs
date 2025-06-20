@@ -1,8 +1,19 @@
 import { User, Bell, Settings, LogOut } from "lucide-react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Header = () => {
   const location = useLocation();
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    // Clear any stored authentication data
+    localStorage.removeItem("authToken");
+    sessionStorage.removeItem("userSession");
+
+    // Navigate to login page
+    navigate("/login");
+  };
+
   return (
     <header className="bg-hoa-phat-700 text-white">
       {/* Main header */}
@@ -266,7 +277,11 @@ const Header = () => {
             <span className="hidden md:inline">
               Xin chào, Nguyễn Văn A (Admin)
             </span>
-            <button className="bg-gray-600 hover:bg-gray-500 px-3 py-1 rounded text-xs transition-colors">
+            <button
+              onClick={handleLogout}
+              className="bg-gray-600 hover:bg-gray-500 px-3 py-1 rounded text-xs transition-colors flex items-center gap-1"
+            >
+              <LogOut className="h-3 w-3" />
               Đăng xuất
             </button>
           </div>
