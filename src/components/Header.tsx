@@ -15,9 +15,7 @@ const Header = () => {
             </div>
             <span className="font-bold text-lg">HÒA PHÁT</span>
           </div>
-          <div className="hidden md:block text-lg font-medium">
-            <p>Tìm kiếm & Truy vết</p>
-          </div>
+          <div className="hidden md:block text-lg font-medium" />
         </div>
 
         {/* Navigation and user info */}
