@@ -70,37 +70,37 @@ const Header = () => {
                     href="/sales-order-tickets"
                     className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
                   >
-                    1. Lệnh xuất bán & Tickets
+                    Lệnh xuất bán & Tickets
                   </a>
                   <a
                     href="/acs-access-control"
                     className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
                   >
-                    2. Phân quyền ACS
+                    Phân quyền ACS
                   </a>
                   <a
                     href="/gate-monitoring"
                     className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
                   >
-                    3. Giám sát cổng
+                    Giám sát cổng
                   </a>
                   <a
                     href="/weighing-station"
                     className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
                   >
-                    4. Trạm cân
+                    Trạm cân
                   </a>
                   <a
                     href="/warehouse-delivery"
                     className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
                   >
-                    5. Giao/nhận kho
+                    Giao/nhận kho
                   </a>
                   <a
                     href="/final-reconciliation"
                     className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
                   >
-                    6. Đối soát & Xác nhận
+                    Đối soát & Xác nhận
                   </a>
                 </div>
               </div>
@@ -187,7 +187,7 @@ const Header = () => {
                     href="/alert-dashboard"
                     className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
                   >
-                    Cảnh báo thời gian thực
+                    C��nh báo thời gian thực
                   </a>
                   <a
                     href="/alert-history"
