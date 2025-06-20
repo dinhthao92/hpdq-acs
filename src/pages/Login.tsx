@@ -46,7 +46,7 @@ const Login = () => {
               className="h-24 mx-auto lg:mx-0 mb-6"
             />
             <h1 className="text-4xl font-bold text-hoa-phat-900 mb-4">
-              HỆ THỐNG QUẢN LÝ AN NINH
+              ACCESS CONTROL SYSTEM
             </h1>
             <h2 className="text-2xl font-semibold text-hoa-phat-700 mb-6">
               CTCP Thép Hòa Phát Dung Quất
@@ -65,7 +65,10 @@ const Login = () => {
             <div className="space-y-3 text-sm text-gray-600">
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-hoa-phat-500" />
-                <span>Khu Công nghiệp Dung Quất, Hải Phòng</span>
+                <span>
+                  Khu Kinh tế Dung Quất, Xã Bình Đông, huyện Bình Sơn, tỉnh
+                  Quảng Ngãi
+                </span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-hoa-phat-500" />
@@ -189,7 +192,7 @@ const Login = () => {
                 </h4>
                 <p className="text-sm text-yellow-700">
                   Vui lòng không chia sẻ thông tin đăng nhập với người khác. Hệ
-                  thống sẽ t��� động đăng xuất sau 30 phút không hoạt động.
+                  thống sẽ tự động đăng xuất sau 30 phút không hoạt động.
                 </p>
               </div>
             </div>
