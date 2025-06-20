@@ -29,8 +29,8 @@ const Login = () => {
     // Simulate login process
     setTimeout(() => {
       setIsLoading(false);
-      // Navigate to registration page after successful login
-      navigate("/registration");
+      // Navigate to main page after successful login
+      navigate("/");
     }, 1500);
   };
 
@@ -189,7 +189,7 @@ const Login = () => {
                 </h4>
                 <p className="text-sm text-yellow-700">
                   Vui lòng không chia sẻ thông tin đăng nhập với người khác. Hệ
-                  thống sẽ tự động đăng xuất sau 30 phút không hoạt động.
+                  thống sẽ t��� động đăng xuất sau 30 phút không hoạt động.
                 </p>
               </div>
             </div>
