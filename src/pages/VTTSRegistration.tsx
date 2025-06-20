@@ -44,7 +44,7 @@ const VTTSRegistration = () => {
         {/* Page Header */}
         <div className="text-center mb-8">
           <h1 className="text-xl font-bold text-gray-900 mb-2 leading-tight">
-            HỆ THỐNG ĐĂNG KÝ VTTS NHÀ THẦU/KHÁCH ONLINE
+            ĐĂNG KÝ VTTS NHÀ THẦU/KHÁCH ONLINE
           </h1>
           <h2 className="text-lg text-hoa-phat-700 font-semibold">
             ĐỂ KIÊM DUYỆT THỦ TỤC TRƯỚC KHI MANG VTTS VÀO/RA
