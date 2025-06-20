@@ -96,7 +96,7 @@ const Header = () => {
             </div>
             <div className="relative group">
               <button className="hover:text-blue-200 transition-colors">
-                Kế hoạch vận chuyển
+                K�� hoạch vận chuyển
               </button>
               <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 <div className="p-2">
@@ -121,16 +121,45 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <a
-              href="/"
-              className={`hover:text-blue-200 transition-colors ${
-                location.pathname === "/"
-                  ? "text-blue-200 font-medium border-b-2 border-blue-200 pb-1"
-                  : ""
-              }`}
-            >
-              Tìm kiếm & Truy vết
-            </a>
+            <div className="relative group">
+              <button className="hover:text-blue-200 transition-colors">
+                Tìm kiếm & Truy vết
+              </button>
+              <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                <div className="p-2">
+                  <a
+                    href="/person-search"
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Nhà thầu/Khách/CBNV
+                  </a>
+                  <a
+                    href="/vehicle-search"
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Phương tiện
+                  </a>
+                  <a
+                    href="/asset-search"
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    VTTS
+                  </a>
+                  <a
+                    href="/order-tracking"
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Xuất bán thành phẩm
+                  </a>
+                  <a
+                    href="/smart-map"
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Bản đồ thông minh
+                  </a>
+                </div>
+              </div>
+            </div>
             <div className="relative group">
               <button className="hover:text-blue-200 transition-colors">
                 Thông báo cảnh báo
