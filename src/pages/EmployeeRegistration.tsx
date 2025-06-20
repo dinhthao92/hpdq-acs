@@ -334,6 +334,7 @@ const EmployeeRegistration = () => {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };
