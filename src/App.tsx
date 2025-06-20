@@ -33,6 +33,7 @@ import UserManagement from "./pages/UserManagement";
 import PermissionManagement from "./pages/PermissionManagement";
 import BlacklistManagement from "./pages/BlacklistManagement";
 import VehicleCardManagement from "./pages/VehicleCardManagement";
+import Login from "./pages/Login";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -44,6 +45,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
+          <Route path="/login" element={<Login />} />
           <Route path="/" element={<Index />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/registration" element={<Registration />} />
