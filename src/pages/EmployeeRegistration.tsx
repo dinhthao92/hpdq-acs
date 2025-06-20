@@ -44,7 +44,7 @@ const EmployeeRegistration = () => {
         {/* Page Header */}
         <div className="text-center mb-8">
           <h1 className="text-2xl font-bold text-gray-900 mb-2">
-            2. MODULE ĐĂNG KÝ CÁN BỘ NHÂN VIÊN
+            ĐĂNG KÝ CÁN BỘ NHÂN VIÊN
           </h1>
           <div className="flex items-center justify-center mt-4">
             <Badge variant="outline" className="bg-blue-50 text-blue-700">
