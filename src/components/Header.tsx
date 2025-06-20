@@ -22,16 +22,33 @@ const Header = () => {
         <div className="flex items-center space-x-6">
           {/* Navigation */}
           <nav className="hidden lg:flex items-center space-x-6">
-            <a
-              href="/registration"
-              className={`hover:text-blue-200 transition-colors ${
-                location.pathname === "/registration"
-                  ? "text-blue-200 font-medium border-b-2 border-blue-200 pb-1"
-                  : ""
-              }`}
-            >
-              Đăng ký ra vào
-            </a>
+            <div className="relative group">
+              <button className="hover:text-blue-200 transition-colors">
+                Đăng ký ra vào
+              </button>
+              <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                <div className="p-2">
+                  <a
+                    href="/registration"
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Nhà thầu/Khách
+                  </a>
+                  <a
+                    href="/employee-registration"
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Cán bộ nhân viên
+                  </a>
+                  <a
+                    href="/vtts-registration"
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    VTTS
+                  </a>
+                </div>
+              </div>
+            </div>
             <div className="relative group">
               <button className="hover:text-blue-200 transition-colors">
                 Quản lý VTTS
