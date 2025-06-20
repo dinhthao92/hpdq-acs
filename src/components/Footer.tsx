@@ -19,7 +19,10 @@ const Footer = () => {
             </p>
             <div className="flex items-center gap-2 text-gray-400 text-sm">
               <Building className="h-4 w-4" />
-              <span>Khu Công nghiệp Dung Quất, Hải Phòng</span>
+              <span>
+                Khu kinh tế Dung Quất, xã Bình Đông, huyện Bình Sơn, tỉnh Quảng
+                Ngãi
+              </span>
             </div>
           </div>
 
